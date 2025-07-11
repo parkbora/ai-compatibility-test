@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나와 찰떡궁합인 AI 동료는?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 언어 선택 -->
+        <div class="lang-select" style="text-align:right; margin-bottom:10px;">
+            <label for="lang">Language:</label>
+            <select id="lang">
+                <option value="ko">한국어</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+        <!-- 시작 화면 -->
+        <div id="start-screen" class="screen active">
+            <div class="header">
+                <h1>🤖 나와 찰떡궁합인 AI 동료는?</h1>
+                <p class="subtitle">5개의 질문으로 알아보는 AI 친밀도 테스트</p>
+            </div>
+            <div class="intro">
+                <p>아래 5개의 질문을 통해 사용자의 AI 친밀도를 측정합니다.</p>
+                <p>각 문항은 3지선다이며, 결과에 따라 최적의 AI 툴을 추천해드립니다!</p>
+            </div>
+            <button id="start-btn" class="btn-primary">테스트 시작하기</button>
+        </div>
+
+        <!-- 질문 화면 -->
+        <div id="question-screen" class="screen">
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+                <span class="progress-text">질문 <span id="current-question">1</span> / 5</span>
+            </div>
+            
+            <div class="question-container">
+                <h2 id="question-text"></h2>
+                <div class="options">
+                    <button class="option-btn" data-score="3">
+                        <span class="option-label">a)</span>
+                        <span class="option-text"></span>
+                    </button>
+                    <button class="option-btn" data-score="2">
+                        <span class="option-label">b)</span>
+                        <span class="option-text"></span>
+                    </button>
+                    <button class="option-btn" data-score="1">
+                        <span class="option-label">c)</span>
+                        <span class="option-text"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 결과 화면 -->
+        <div id="result-screen" class="screen">
+            <div class="result-header">
+                <h1 id="result-title"></h1>
+                <p id="result-subtitle"></p>
+            </div>
+            
+            <div class="result-content">
+                <div class="result-section">
+                    <h3 id="result-section-diagnosis">📋 진단 내용</h3>
+                    <p id="result-description"></p>
+                </div>
+                
+                <div class="result-section">
+                    <h3 id="result-section-tools">🛠 추천 AI 툴킷</h3>
+                    <div id="recommended-tools"></div>
+                </div>
+                
+                <div class="result-section">
+                    <h3 id="result-section-solution">🧠 솔루션 제안</h3>
+                    <div id="solution-package"></div>
+                </div>
+            </div>
+            
+            <div class="action-buttons">
+                <button id="retake-btn" class="btn-secondary">다시 테스트하기</button>
+                <button id="solution-btn" class="btn-primary">솔루션 자세히 보기</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
