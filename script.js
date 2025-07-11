@@ -195,7 +195,7 @@ function updateAllTexts() {
   // 제목
   const startTitleEl = document.getElementById('start-title');
   if (startTitleEl) {
-    startTitleEl.innerHTML = i18n[currentLang].startTitle + ' <span style="color:#4A90E2;">��</span>';
+    startTitleEl.innerHTML = i18n[currentLang].startTitle;
   }
   // 부제목
   const startSubtitleEl = document.getElementById('start-subtitle');
