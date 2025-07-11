@@ -340,9 +340,7 @@ langSelect?.addEventListener('change', (e) => {
 
 startBtn?.addEventListener('click', startTest);
 retakeBtn?.addEventListener('click', resetTest);
-solutionBtn?.addEventListener('click', () => {
-  alert(i18n[currentLang].solutionAlert);
-});
+
 
 // 4. 최초 실행
 updateAllTexts();
