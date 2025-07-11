@@ -83,9 +83,31 @@ body {
     margin-bottom: 15px;
 }
 
+/* 시작화면 버튼 및 배경 스타일 */
 .btn-primary {
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    color: white;
+    background: #b86a36;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+    padding: 18px 0;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px #eee;
+}
+.btn-primary:hover {
+    background: #a05a2c;
+}
+#start-screen {
+    background: #fdf9f7;
+    min-height: 100vh;
+    padding-bottom: 32px;
+}
+#start-screen img {
+    width: 180px;
+    border-radius: 32px;
+    box-shadow: 0 2px 8px #eee;
+    margin-top: 16px;
 }
 
 .btn-primary:hover {

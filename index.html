@@ -18,16 +18,26 @@
             </select>
         </div>
         <!-- 시작 화면 -->
-        <div id="start-screen" class="screen active">
-            <div class="header">
-                <h1>🤖 나와 찰떡궁합인 AI 동료는?</h1>
-                <p class="subtitle">5개의 질문으로 알아보는 AI 친밀도 테스트</p>
+        <div id="start-screen" class="screen active" style="background:#fdf9f7; min-height:100vh; padding-bottom:32px;">
+            <div class="header" style="display:flex; justify-content:space-between; align-items:center; margin-top:8px;">
+                <div></div>
+                <div style="font-weight:700; font-size:20px; margin:16px 16px 0 0;">AI-UP</div>
             </div>
-            <div class="intro">
-                <p>아래 5개의 질문을 통해 사용자의 AI 친밀도를 측정합니다.</p>
-                <p>각 문항은 3지선다이며, 결과에 따라 최적의 AI 툴을 추천해드립니다!</p>
+            <div style="display:flex; flex-direction:column; align-items:center; margin-top:16px;">
+                <img src="images/character.png" alt="캐릭터" style="width:180px; border-radius:32px; box-shadow:0 2px 8px #eee;">
             </div>
-            <button id="start-btn" class="btn-primary">테스트 시작하기</button>
+            <h1 style="text-align:center; margin-top:24px; font-size:26px; font-weight:700;">나와 찰떡궁합 AI 동료는? <span style="color:#4A90E2;">🤖</span></h1>
+            <p style="text-align:center; font-size:18px; margin:8px 0 0 0; font-weight:500;">1분 만에 알아보는 나의 AI 업무 스타일!</p>
+            <div style="display:flex; justify-content:center; gap:16px; margin:16px 0; font-size:15px; color:#888;">
+                <span>⏰ 예상 소요 시간: 1분</span>
+                <span>👥 현재 1,234명이 참여했어요</span>
+            </div>
+            <button id="start-btn" class="btn-primary" style="width:90%; max-width:340px; margin:24px auto 0 auto; font-size:20px;">
+                시작하기 &nbsp; →
+            </button>
+            <p style="text-align:center; color:#aaa; margin-top:24px; font-size:15px;">
+                AI와 함께하는 새로운 업무 방식을 발견해보세요
+            </p>
         </div>
 
         <!-- 질문 화면 -->
