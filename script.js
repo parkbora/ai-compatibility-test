@@ -59,7 +59,7 @@ const i18n = {
         description: "당신은 AI 도입에 신중하며, 검증된 기술로 확실한 성공을 경험하는 것이 중요한 현명한 관리자입니다. 거창한 혁신보다는, 당장 눈앞의 가장 번거로운 문제 하나를 해결하는 것에 집중합니다.",
         tools: "• ✍ 글쓰기/아이디어: <strong>Wrtn</strong>, <strong>네이버 ClovaX</strong><br>• 🌐 번역/요약: <strong>DeepL</strong>, <strong>파파고</strong>",
         solution: "뤼튼으로 글쓰기 초안을 만드는 경험, 편리하셨죠?<br>하지만 그 AI는 우리 회사의 제품 정보나 내부 규정을 알지 못합니다.<br><strong>AI-UP의 스타터 에이전트</strong>는 오직 '우리 회사 데이터'만 학습하여, 정확한 정보만 제공하는 '우리 회사 전용 신입사원'이 되어드립니다.",
-        buttonText: "Starter 솔루션 자세히 보기"
+        buttonText: "문의하기"
       },
       medium: {
         title: "🧠 호기심 많은 탐험가",
@@ -67,7 +67,7 @@ const i18n = {
         description: "당신은 AI를 '똑똑한 비서'로 인식하고, 업무 효율을 극대화하는 데 큰 관심을 가진 실용주의자입니다. 이제 단순 활용을 넘어, 여러 도구를 연결하여 시너지를 내고 싶어 합니다.",
         tools: "• [무료] <strong>Notion AI</strong>, <strong>Gamma</strong> – 발표자료 자동화, 회의록 요약<br>• [유료] <strong>ChatGPT Plus</strong>, <strong>Perplexity Pro</strong> – 리서치, 보고서 작성",
         solution: "ChatGPT Plus로 특정 웹페이지를 요약하는 건 강력하죠.<br>하지만 구글 드라이브, 노션, 로컬 폴더에 흩어진 수십 개의 문서를 한 번에 분석할 수는 없습니다.<br><br><strong>AI-UP의 스탠다드 에이전트</strong>는 이런 데이터를 자동으로 연결하고<br>학습하여, <strong>우리 회사만의 전용 검색 엔진</strong>이 되어줍니다.",
-        buttonText: "Standard 솔루션 자세히 보기"
+        buttonText: "문의하기"
       },
       high: {
         title: "🚀 적극적인 프론티어",
@@ -75,7 +75,7 @@ const i18n = {
         description: "당신은 AI를 단순한 도구를 넘어, 비즈니스 프로세스를 혁신하는 <strong>전략적 파트너</strong>로 활용할 준비가 된 개척자입니다. 자동화 워크플로우 구축과 '판단하는 AI'에 관심이 많습니다.",
         tools: "• [창작] <strong>Claude 3 (Opus)</strong>, <strong>Midjourney</strong> – 전략/마케팅 활용<br>• [직접 구축] <strong>n8n.io</strong> – 앱 연결 자동화, 데이터 처리 시각화",
         solution: "n8n을 통해 자동화의 강력함을 이미 알고 계시군요.<br>하지만 정교한 비즈니스 로직, 복잡한 예외 처리,<br>그리고 'AI의 지능적인 판단'을 녹여내는 건 전문가의 영역입니다.<br><br><strong>AI-UP의 프리미엄 에이전트</strong>는 단순한 자동화 도구가 아닙니다.<br>상황을 이해하고 스스로 판단하는 '진짜 AI 직원'을 채용하는 것입니다.",
-        buttonText: "Premium 솔루션 자세히 보기"
+        buttonText: "문의하기"
       }
     },
     solutionAlert: "AI-UP 솔루션에 대한 자세한 정보는 곧 제공될 예정입니다!",
@@ -143,7 +143,7 @@ const i18n = {
         description: "You are prudent about adopting AI, valuing proven technology and certain success. Rather than grand innovation, you focus on solving the most tedious problem at hand.",
         tools: "• ✍ Writing/Ideas: <strong>Wrtn</strong>, <strong>Naver ClovaX</strong><br>• 🌐 Translation/Summary: <strong>DeepL</strong>, <strong>Papago</strong>",
         solution: "You’ve enjoyed drafting with Wrtn, right?<br>But that AI doesn’t know your company’s product info or internal rules.<br><strong>AI-UP’s Starter Agent</strong> learns only your company’s data,<br>becoming your exclusive, accurate ‘new hire’.",
-        buttonText: "See Starter Solution"
+        buttonText: "Contact Us"
       },
       medium: {
         title: "🧠 Curious Explorer",
@@ -151,7 +151,7 @@ const i18n = {
         description: "You see AI as a ‘smart assistant’ and are keen to maximize work efficiency. Now you want to connect multiple tools for synergy.",
         tools: "• [Free] <strong>Notion AI</strong>, <strong>Gamma</strong> – Automated slides, meeting notes<br>• [Paid] <strong>ChatGPT Plus</strong>, <strong>Perplexity Pro</strong> – Research, report writing",
         solution: "Summarizing a web page with ChatGPT Plus is powerful.<br>But you can’t analyze dozens of docs scattered across Google Drive, Notion, and local folders at once.<br><br><strong>AI-UP’s Standard Agent</strong> connects and learns from all your data,<br>becoming your company’s exclusive search engine.",
-        buttonText: "See Standard Solution"
+        buttonText: "Contact Us"
       },
       high: {
         title: "🚀 Active Frontier",
@@ -159,7 +159,7 @@ const i18n = {
         description: "You’re ready to use AI as a strategic partner to transform business processes. You’re interested in building automated workflows and ‘judgmental AI’.",
         tools: "• [Creation] <strong>Claude 3 (Opus)</strong>, <strong>Midjourney</strong> – Strategy/Marketing<br>• [Build] <strong>n8n.io</strong> – App automation, data visualization",
         solution: "You already know the power of automation with n8n.<br>But sophisticated business logic, complex exceptions, and ‘intelligent judgment’ require experts.<br><br><strong>AI-UP’s Premium Agent</strong> isn’t just an automation tool.<br>It’s like hiring a real AI employee who understands and decides on its own.",
-        buttonText: "See Premium Solution"
+        buttonText: "Contact Us"
       }
     },
     solutionAlert: "Detailed information about AI-UP solutions will be available soon!",
