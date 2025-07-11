@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -25,13 +24,19 @@ body {
 }
 
 .screen {
-    display: none;
+    display: none !important;
     padding: 40px;
     min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    min-height: 100vh; 
+    background: #FAFAFA;
 }
 
 .screen.active {
-    display: block;
+    display: flex !important;
 }
 
 /* 시작 화면 */
@@ -101,12 +106,13 @@ body {
 #start-screen {
     background: #fdf9f7;
     min-height: 100vh;
-    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 #start-screen img {
-    width: 180px;
-    border-radius: 32px;
-    box-shadow: 0 2px 8px #eee;
+    width: 280px;
     margin-top: 16px;
 }
 
@@ -128,12 +134,12 @@ body {
 
 /* 진행률 바 */
 .progress-bar {
-    background: #f8f9fa;
+    background: #E5E7EB;
     border-radius: 25px;
     height: 8px;
     margin-bottom: 30px;
     position: relative;
-    overflow: hidden;
+    width: 100%;
 }
 
 .progress-fill {
@@ -168,7 +174,7 @@ body {
 }
 
 .option-btn {
-    background: #f8f9fa;
+    background: #fff;
     border: 2px solid #e9ecef;
     border-radius: 15px;
     padding: 20px;
@@ -204,6 +210,9 @@ body {
 }
 
 /* 결과 화면 */
+#result-screen {
+    background: #fff;
+}
 .result-header {
     text-align: center;
     margin-bottom: 30px;
@@ -212,7 +221,7 @@ body {
 .result-header h1 {
     font-size: 2rem;
     margin-bottom: 10px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: #1A1A1A;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -221,6 +230,7 @@ body {
 .result-header p {
     font-size: 1.1rem;
     color: #666;
+    margin-bottom: 10px;
 }
 
 .result-section {
@@ -261,6 +271,8 @@ body {
     display: flex;
     gap: 15px;
     margin-top: 30px;
+    flex-direction: column;
+    width: 100%;
 }
 
 .action-buttons .btn-primary,

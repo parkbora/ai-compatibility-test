@@ -18,24 +18,24 @@
             </select>
         </div>
         <!-- 시작 화면 -->
-        <div id="start-screen" class="screen active" style="background:#fdf9f7; min-height:100vh; padding-bottom:32px;">
+        <div id="start-screen" class="screen active" style="background:#fdf9f7; min-height:100vh;">
             <div class="header" style="display:flex; justify-content:space-between; align-items:center; margin-top:8px;">
                 <div></div>
                 <div style="font-weight:700; font-size:20px; margin:16px 16px 0 0;">AI-UP</div>
             </div>
             <div style="display:flex; flex-direction:column; align-items:center; margin-top:16px;">
-                <img src="images/character.png" alt="캐릭터" style="width:180px; border-radius:32px; box-shadow:0 2px 8px #eee;">
+                <img src="images/character.png" alt="캐릭터">
             </div>
-            <h1 style="text-align:center; margin-top:24px; font-size:26px; font-weight:700;">나와 찰떡궁합 AI 동료는? <span style="color:#4A90E2;">🤖</span></h1>
-            <p style="text-align:center; font-size:18px; margin:8px 0 0 0; font-weight:500;">1분 만에 알아보는 나의 AI 업무 스타일!</p>
-            <div style="display:flex; justify-content:center; gap:16px; margin:16px 0; font-size:15px; color:#888;">
-                <span>⏰ 예상 소요 시간: 1분</span>
+            <h1 id="start-title" style="text-align:center; margin-top:24px; font-size:26px; font-weight:700;">나와 찰떡궁합 AI 동료는?</h1>
+            <p id="start-subtitle" style="text-align:center; font-size:18px; margin:8px 0 0 0; font-weight:500;">30초 만에 알아보는 나의 AI 업무 스타일!</p>
+            <div style="display:flex; flex-direction: column; align-items: center; justify-content:center; gap:16px; margin:16px 0; font-size:15px; color:#888;">
+                <span>⏰ 예상 소요 시간: 30초</span>
                 <span>👥 현재 1,234명이 참여했어요</span>
             </div>
             <button id="start-btn" class="btn-primary" style="width:90%; max-width:340px; margin:24px auto 0 auto; font-size:20px;">
                 시작하기 &nbsp; →
             </button>
-            <p style="text-align:center; color:#aaa; margin-top:24px; font-size:15px;">
+            <p id="start-guide" style="text-align:center; color:#aaa; margin-top:24px; font-size:15px;">
                 AI와 함께하는 새로운 업무 방식을 발견해보세요
             </p>
         </div>
@@ -44,22 +44,22 @@
         <div id="question-screen" class="screen">
             <div class="progress-bar">
                 <div class="progress-fill"></div>
-                <span class="progress-text">질문 <span id="current-question">1</span> / 5</span>
+                <span class="progress-text"> <span id="current-question">1</span> </span>
             </div>
             
             <div class="question-container">
                 <h2 id="question-text"></h2>
                 <div class="options">
                     <button class="option-btn" data-score="3">
-                        <span class="option-label">a)</span>
+                        <span class="option-label"></span>
                         <span class="option-text"></span>
                     </button>
                     <button class="option-btn" data-score="2">
-                        <span class="option-label">b)</span>
+                        <span class="option-label"></span>
                         <span class="option-text"></span>
                     </button>
                     <button class="option-btn" data-score="1">
-                        <span class="option-label">c)</span>
+                        <span class="option-label"></span>
                         <span class="option-text"></span>
                     </button>
                 </div>
@@ -71,6 +71,7 @@
             <div class="result-header">
                 <h1 id="result-title"></h1>
                 <p id="result-subtitle"></p>
+                <div><img src="images/result1.png" alt="캐릭터"></div>
             </div>
             
             <div class="result-content">
@@ -90,9 +91,9 @@
                 </div>
             </div>
             
-            <div class="action-buttons">
-                <button id="retake-btn" class="btn-secondary">다시 테스트하기</button>
+            <div class="action-buttons">                
                 <button id="solution-btn" class="btn-primary">솔루션 자세히 보기</button>
+                <button id="retake-btn" class="btn-secondary">다시 테스트하기</button>
             </div>
         </div>
     </div>
