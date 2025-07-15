@@ -73,7 +73,7 @@ const i18n = {
       subtitle: "실용성과 효율을 중시하는 AI 활용 실전파",
       description: "당신은 AI를 '똑똑한 비서'로 인식하고, 업무 효율을 극대화하는 데 큰 관심을 가진 실용주의자입니다. 이제 단순 활용을 넘어, 여러 도구를 연결하여 시너지를 내고 싶어 합니다.",
       tools: "• [무료] <strong>Notion AI</strong>, <strong>Gamma</strong> – 발표자료 자동화, 회의록 요약<br>• [유료] <strong>ChatGPT Plus</strong>, <strong>Perplexity Pro</strong> – 리서치, 보고서 작성",
-      solution: "ChatGPT Plus로 특정 웹페이지를 요약하는 건 강력하죠.<br>하지만 구글 드라이브, 노션, 로컬 폴더에 흩어진 수십 개의 문서를<br>한 번에 분석할 수는 없습니다.<br><br><strong>AI-UP의 교육</strong>을 통해 이렇게 흩어진 데이터를 모두 연결하고 학습하여, '우리 회사만의 전용 검색 엔진이자 똑똑한 분석가'를 만들 수 있습니다. '그 자료 어디 있더라?' 라는 말은 이제 사라집니다.",
+      solution: "ChatGPT Plus로 특정 웹페이지를 요약하는 건 강력하죠.<br>하지만 구글 드라이브, 노션, 로컬 폴더에 흩어진 수십 개의 문서를 한 번에 분석할 수는 없습니다.<br><br><strong>AI-UP의 교육</strong>을 통해 이렇게 흩어진 데이터를 모두 연결하고 학습하여, '우리 회사만의 전용 검색 엔진이자 똑똑한 분석가'를 만들 수 있습니다. '그 자료 어디 있더라?' 라는 말은 이제 사라집니다.",
       buttonText: "문의하기"
     },
     four: {
