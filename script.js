@@ -207,6 +207,12 @@ function updateResultTexts() {
   if (toolsEl) toolsEl.innerHTML = result.tools;
   const solEl = document.getElementById('solution-package');
   if (solEl) solEl.innerHTML = result.solution;
+  const moreEl = document.getElementById('more-package');
+  if (moreEl) moreEl.innerHTML = result.more;
+  const nextEl = document.getElementById('next-package');
+  if (nextEl) nextEl.innerHTML = result.next;
+  const contactEl = document.getElementById('contact-package');
+  if (contactEl) contactEl.innerHTML = result.contact;
   if (solutionBtn) solutionBtn.innerHTML = result.buttonText;
 
   // 결과 이미지 변경
