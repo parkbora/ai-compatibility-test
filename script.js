@@ -88,7 +88,7 @@ const i18n = {
     four: {
       title: "<div>🧠 진화하는 실천가</div>",
       subtitle: "<div>AI 자동화 구축파</div>",
-      description: "<div>당신은 AI를 단순 활용을 넘어서 업무 자동화와 맞춤형 설정까지 시도해본 분입니다. 기존의 툴 조합에 한계를 느끼며, 직접 도구를 연결하고 최적화하는 법을 고민하는 타입입니다.</div",
+      description: "<div>당신은 AI를 단순 활용을 넘어서 업무 자동화와 맞춤형 설정까지 시도해본 분입니다. 기존의 툴 조합에 한계를 느끼며, 직접 도구를 연결하고 최적화하는 법을 고민하는 타입입니다.</div>",
       tools: "<div>• [무료/유료] <strong>Zapier</strong>, <strong>n8n</strong> – 반복 업무 자동화<br>• [유료] <strong>GPT 커스터마이징</strong>  – 프롬프트 설계, 특정 업무 맞춤 응답 구성</div>",
       solution: "<div>반복 업무를 자동화하는 흐름은 익숙하시죠?<br>이제는 <strong>'AI가 주도적으로 생각하고 판단하는 구조'</strong>로 진화할 차례입니다. 당신의 반복된 클릭과 복붙을 없애드릴게요.</div>",
       more: "<div>n8n, Make 사용 경험이 있다면, 조건 분기, 다중 앱 연결, 데이터 필터링까지 확장해보세요.</div><div>프롬프트에 따라 자동화된 결과가 다르게 나올 수 있도록 Prompt-Driven Workflow를 시도해보세요.</div>",
