@@ -111,7 +111,10 @@ const i18n = {
   sectionTitles: {
     diagnosis: "<div>📋 진단 내용</div>",
     tools: "<div>🛠 추천 AI 툴킷</div>",
-    solution: "<div>🧠 솔루션 제안</div>"
+    solution: "<div>🧠 솔루션 제안</div>",
+    more: "<div>🛠 지금보다 한 단계 더 나아가기</div>",
+    next: "<div>🚀 당신의 다음 도전 영역은?</div>",
+    contact: "<div>📌 이건 우리에게 맡기세요</div>"
   }
 };
 
